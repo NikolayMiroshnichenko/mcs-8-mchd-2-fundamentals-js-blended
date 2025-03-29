@@ -4,3 +4,15 @@
 //    Якщо так – виведіть повідомлення 'Вірно' у alert().
 //    Якщо ні – виведіть 'Невірно'.
 // Підказка: prompt завжди повертає рядок (String)
+
+const number = prompt('Введіть число:');
+
+// v1
+// if (Number(number) && number == 10) {
+//     alert('Вірно');
+// } else {
+//     alert('Не вірно');
+// }
+
+// v2
+Number(number) && number == 10 ? alert('Вірно') : alert('Не вірно'); 
