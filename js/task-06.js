@@ -6,14 +6,12 @@
 // Зверніть увагу, що в масиві може бути кілька обʼєктів з однаковою 
 // назвою фрукта, це також треба урахувати.
 
-function calcTotalPrice(fruits, fruitName) {
-    let total = 0;
+// const fruits = [
+//     { name: 'apple', price: 10, quantity: 2 },
+//     { name: 'banana', price: 5, quantity: 5 },
+//     { name: 'apple', price: 10, quantity: 3 },
+//     { name: 'orange', price: 8, quantity: 4 },
+//   ];
+  
+//   const totalPrice = calcTotalPrice(fruits, 'apple');
 
-    for (const fruit of fruits) {
-        if (fruit.name === fruitName) {
-            total += fruit.price * fruit.quantity;
-        }
-    }
-
-    return total;
-}

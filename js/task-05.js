@@ -8,9 +8,3 @@
 //     Poly: 160,
 //     Ajax: 1470,
 //   };
-
-let sum = 0;
-
-for (const salary of Object.values(salaries)) {
-    sum += salary;
-}
