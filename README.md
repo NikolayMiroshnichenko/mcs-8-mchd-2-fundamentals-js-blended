@@ -1,1 +1,0 @@
-# mcs-8-mchd-2-fundamentals-js-blended
