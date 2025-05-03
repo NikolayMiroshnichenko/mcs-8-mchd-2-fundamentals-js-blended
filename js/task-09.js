@@ -4,8 +4,13 @@
 // Очікуваний результат: [{name: "John", age: 27}, {name: "Jane", age: 31}]
 
 
-//const user = [
-//  { name: 'John', age: 27 },
-//  { name: 'Jane', age: 31 },
-//  { name: 'Bob', age: 19 },
-// ]
+const users = [
+    { name: 'John', age: 27 },
+    { name: 'Jane', age: 31 },
+    { name: 'Bob', age: 19 },
+    { name: 'Mango', age: 21 },
+]
+
+const result = users.filter(user => user.age > 20);
+
+console.log('result', result);

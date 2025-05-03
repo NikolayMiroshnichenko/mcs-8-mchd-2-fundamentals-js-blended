@@ -2,4 +2,8 @@
 // квадрати кожного елементу вхідного масиву.
 // Очікуваний результат: [1, 4, 9, 16, 25].
 
-// const numbers = [1, 2, 3, 4, 5]
+const numbers = [1, 2, 3, 4, 5];
+
+const numbersNew = numbers.map(number => number * number);
+
+console.log(numbersNew);
