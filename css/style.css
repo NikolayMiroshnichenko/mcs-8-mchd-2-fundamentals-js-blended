@@ -25,6 +25,10 @@ ul {
     padding: 0;
 }
 
+h3.active {
+    color: green;
+}
+
 /* components */
 .task-wrapper {
     padding-bottom: 64px;
@@ -61,6 +65,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
+
 .number {
     width: 50px;
     height: 50px;
